@@ -1,0 +1,112 @@
+import { Product } from '../types/Product';
+
+export const products: Product[] = [
+  {
+    id: 1,
+    name: 'FLORAL-PRINT SILK SHIRT',
+    brand: 'BALENCIAGA',
+    price: 1200.00,
+    originalPrice: 1500.00,
+    discount: 20,
+    image: 'https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&dpr=1',
+    colors: ['#E6E6FA', '#FFB6C1', '#98FB98'],
+    sizes: ['XS', 'S', 'M', 'L'],
+    fabric: '100% Silk',
+    care: 'Dry clean only',
+    year: '2024',
+    createdAt: '2024-01-15'
+  },
+  {
+    id: 2,
+    name: 'THE SHOP UP-PRINT SHIRT',
+    brand: 'KHAITE',
+    price: 890.00,
+    originalPrice: 1090.00,
+    discount: 18,
+    image: 'https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&dpr=1',
+    colors: ['#F5F5DC', '#000000', '#FFFFFF'],
+    sizes: ['S', 'M', 'L', 'XL'],
+    fabric: '100% Cotton',
+    care: 'Machine wash cold',
+    year: '2024',
+    createdAt: '2024-01-10'
+  },
+  {
+    id: 3,
+    name: 'LAYERED CHIFFON BLOUSE',
+    brand: 'JACQUEMUS',
+    price: 650.00,
+    image: 'https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&dpr=1',
+    colors: ['#FF6B6B', '#FFD93D', '#6BCF7F'],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    fabric: '100% Chiffon',
+    care: 'Hand wash only',
+    year: '2024',
+    createdAt: '2024-01-08'
+  },
+  {
+    id: 4,
+    name: 'ZIP-UP DENIM CORSET',
+    brand: 'ALEXANDER MCQUEEN',
+    price: 1300.00,
+    image: 'https://images.pexels.com/photos/1631181/pexels-photo-1631181.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&dpr=1',
+    colors: ['#4169E1', '#000000', '#FFFFFF'],
+    sizes: ['XS', 'S', 'M', 'L'],
+    fabric: '100% Cotton Denim',
+    care: 'Machine wash cold',
+    year: '2024',
+    createdAt: '2024-01-05'
+  },
+  {
+    id: 5,
+    name: 'STRIPED ORGANIC BLOUSE',
+    brand: 'GANNI',
+    price: 420.00,
+    image: 'https://images.pexels.com/photos/1485031/pexels-photo-1485031.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&dpr=1',
+    colors: ['#87CEEB', '#FFB6C1', '#98FB98'],
+    sizes: ['S', 'M', 'L', 'XL'],
+    fabric: '100% Organic Cotton',
+    care: 'Machine wash cold',
+    year: '2024',
+    createdAt: '2024-01-03'
+  },
+  {
+    id: 6,
+    name: 'CROPPED KNITTED TOP',
+    brand: 'PRADA',
+    price: 780.00,
+    image: 'https://images.pexels.com/photos/1043473/pexels-photo-1043473.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&dpr=1',
+    colors: ['#E6E6FA', '#FFB6C1', '#F0E68C'],
+    sizes: ['XS', 'S', 'M', 'L'],
+    fabric: '100% Merino Wool',
+    care: 'Hand wash only',
+    year: '2024',
+    createdAt: '2024-01-01'
+  },
+  {
+    id: 7,
+    name: 'PLEATED SILK BLOUSE',
+    brand: 'DOLCE & GABBANA',
+    price: 950.00,
+    image: 'https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&dpr=1',
+    colors: ['#FF69B4', '#FF6347', '#4169E1'],
+    sizes: ['S', 'M', 'L', 'XL'],
+    fabric: '100% Silk',
+    care: 'Dry clean only',
+    year: '2024',
+    createdAt: '2023-12-28'
+  },
+  {
+    id: 8,
+    name: 'LONG-WAISTED CHOPPED TOP',
+    brand: 'PALM ANGELS',
+    price: 380.00,
+    image: 'https://images.pexels.com/photos/1631181/pexels-photo-1631181.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&dpr=1',
+    colors: ['#000000', '#FFFFFF', '#808080'],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    fabric: '100% Cotton',
+    care: 'Machine wash cold',
+    year: '2024',
+    createdAt: '2023-12-25'
+  }
+];
